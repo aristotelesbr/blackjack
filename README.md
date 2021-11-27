@@ -1,27 +1,39 @@
 # blackjack
 
-FIXME: description
+Or "21" if you Brazilian 😁
+
+Arch
+┌───────┐┌───────┐
+│2      ││7      │
+│   ♥   ││   ♥   │
+│      2││      7│
+└───────┘└───────┘
+9 points
+--------------
+
+Dealer
+┌───────┐┌───────┐
+│7      ││10     │
+│   ♣   ││   ♦   │
+│      7││     10│
+└───────┘└───────┘
+17 points
+--------------
 
 ## Installation
 
-Download from http://example.com/FIXME.
+Download this repository and run `lein install`
 
 ## Usage
-
-FIXME: explanation
-
-    $ java -jar blackjack-0.1.0-standalone.jar [args]
+...
 
 ## Options
-
-FIXME: listing of options this app accepts.
+...
 
 ## Examples
-
 ...
 
 ### Bugs
-
 ...
 
 ### Any Other Sections
@@ -30,7 +42,7 @@ FIXME: listing of options this app accepts.
 
 ## License
 
-Copyright © 2021 FIXME
+Copyright © 2021
 
 This program and the accompanying materials are made available under the
 terms of the Eclipse Public License 2.0 which is available at
