@@ -1,5 +1,14 @@
 (ns blackjack.game)
 
-(defn new-card []
+(defn new-card
   "Generate a card number between 1 and 13"
-  (inc(rand-int 13)))
+  []
+  (inc (rand-int 13)))
+
+(defn player
+  "Represents a player"
+  [player-name]
+  (let [card1 (new-card)
+        card2 (new-card)]
+    {:player-name player-name
+     :cards [card1 card2]}))
