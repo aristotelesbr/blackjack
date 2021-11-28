@@ -29,10 +29,6 @@
         points-with-A-11 (reduce + cards-with-A11)]
     (if (> points-with-A-11 21) points-with-A-1 points-with-A-11)))
 
-(points-card [1 10])
-(points-card [1 5 7])
-(points-card [1 5 5])
-
 (defn player
   "Represents a player"
   [player-name]
